@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script:wght@400&family=Montserrat:wght@400;500;600;700;900&display=swap"
+        rel="stylesheet">
+
+        <script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Creative Agency</title>
+    </head>
+
+    <body>
+        <div class="info_block" onclick='showInfo()'>
+            <div class="info_content">
+                <div class="info_column">
+                    <div class="info_row">
+                        <div class="info_line">
+                            <div></div>
+                        </div>
+
+                        <div class="info_text">
+                            <span>Header</span>
+                        </div>
+                    </div>
+
+                    <div class="info_row">
+                        <div class="info_line">
+                            <div></div>
+                        </div>
+
+                        <div class="info_text">
+                            <span>About Us</span>
+                        </div>
+                    </div>
+
+                    <div class="info_row">
+                        <div class="info_line">
+                            <div></div>
+                        </div>
+
+                        <div class="info_text">
+                            <span>Portfolio</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info_column">
+                    <div class="info_row">
+                        <div class="info_text">
+                            <span>Comments</span>
+                        </div>
+
+                        <div class="info_line">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <div class="info_row">
+                        <div class="info_text">
+                            <span>Contact Us</span>
+                        </div>
+
+                        <div class="info_line">
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="nav_info">
+                <svg onclick='showInfo()' viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"><g><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path></g></svg>
+            </div>
+
+            <div class="nav_title">
+                <span>Creative</span>
+                <span>agency</span>
+            </div>
+
+            <div class="nav_content">
+                <div class="nav_table">
+                    <div class="nav_link active" onclick="setActive(0)">Header</div>
+                    <div class="nav_link" onclick="setActive(1)">About Us</div>
+                    <div class="nav_link" onclick="setActive(2)">Portfolio</div>
+                    <div class="nav_link" onclick="setActive(3)">Comments</div>
+                    <div class="nav_link" onclick="setActive(4)">Contact Us</div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="whitespace"></div>
+        <header id='header'>
+            <div class="whitespace"></div>
+            <div class="container inner_header">
+                <div class="header_content">
+                    <div class="header_like"></div>
+
+                    <div class="header_text">
+                        <div class="header_title">Digital Creative Agency</div>
+                        <div class="header_subtitle">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </div>
+
+                        <div class="button header_button">
+                            <span>Know More</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header_dots"></div>
+            </div>
+        </header>
+
+        <div class="about_us" id='about-us'>
+            <div class="about_img">
+                <div class="about_img1"></div>
+                <div class="about_img2"></div>
+            </div>
+
+            <div class="container inner_about">
+                <div class="whitespace"></div>
+                <div class="about_title">
+                    <span>You Dream</span>
+                    <span>We Design</span>
+                </div>
+
+                <div class="about_text">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+                </div>
+
+                <div class="about_blocks">
+                    <div class="about_block">
+                        <div class="about_block_img about1"></div>
+                        <div class="about_block_title">Branding</div>
+
+                        <div class="about_block_text">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </div>
+                    </div>
+
+                    <div class="about_block">
+                        <div class="about_block_img about2"></div>
+                        <div class="about_block_title">Graphic Design</div>
+
+                        <div class="about_block_text">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </div>
+                    </div>
+
+                    <div class="about_block">
+                        <div class="about_block_img about3"></div>
+                        <div class="about_block_title">Creative Ideas</div>
+
+                        <div class="about_block_text">
+                            We are a creative web design agency who makes beautiful websites for thousands of peoples.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about_button_block">
+                    <div class="button about_button">
+                        <span>Know More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="portfolio" id="portfolio">
+            <div class="container inner_block">
+                <div class="block_title">Our Creative Work</div>
+                <div class="block_text">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+                </div>
+
+                <div class="portfolio_content">
+                    <div class="portfolio_img portfolio_img1"></div>
+                    <div class="portfolio_img portfolio_img2"></div>
+                    <div class="portfolio_img portfolio_img3"></div>
+                    <div class="portfolio_img portfolio_img4"></div>
+                    <div class="portfolio_img portfolio_img5"></div>
+                    <div class="portfolio_img portfolio_img6"></div>
+                    <div class="portfolio_img portfolio_img7"></div>
+                    <div class="portfolio_img portfolio_img8"></div>
+                    <div class="portfolio_img portfolio_img9"></div>
+                </div>
+
+                <div class="button header_button">
+                    <span>Know More</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="logos">
+            <div class="container inner_logos"></div>
+        </div>
+
+        <div class="comments" id="comments">
+            <div class="container inner_block">
+                <div class="block_title" style="color: #fff;">Our User's Review</div>
+                <div class="block_text" style="color: #fff;">
+                    Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.orem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt.
+                </div>
+
+                <div class="comments_content">
+                    <div class="comments_block">
+                        <div class="comments_author">
+                            <div class="comments_img"></div>
+
+                            <div class="comments_author_text">
+                                <span>David Smith</span>
+                                <span>Graphic Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="comments_text">
+                            Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt. Lorem ipsum dolor sit amet, consect adipisicing elit.
+                        </div>
+
+                        <div class="comments_rating"></div>
+                    </div>
+
+                    <div class="comments_block">
+                        <div class="comments_author">
+                            <div class="comments_img"></div>
+
+                            <div class="comments_author_text">
+                                <span>David Smith</span>
+                                <span>Graphic Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="comments_text">
+                            Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt. Lorem ipsum dolor sit amet, consect adipisicing elit.
+                        </div>
+
+                        <div class="comments_rating"></div>
+                    </div>
+
+                    <div class="comments_block">
+                        <div class="comments_author">
+                            <div class="comments_img"></div>
+
+                            <div class="comments_author_text">
+                                <span>David Smith</span>
+                                <span>Graphic Designer</span>
+                            </div>
+                        </div>
+
+                        <div class="comments_text">
+                            Lorem ipsum dolor sit amet, consect adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua incididunt. Lorem ipsum dolor sit amet, consect adipisicing elit.
+                        </div>
+
+                        <div class="comments_rating"></div>
+                    </div>
+                </div>
+
+                <div class="about_button_block">
+                    <div class="button about_button">
+                        <span>Know More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact_us" id="contact-us">
+            <div class="container inner_block">
+                <div class="block_title">Get in Touch</div>
+
+                <div class="contact_content">
+                    <div class="contact_info">
+                        <div class="contact_info_field">
+                            <div>Address:</div>
+                            <div>123, Main Street, Your City, New York USA 789456</div>
+                        </div>
+    
+                        <div class="contact_info_field">
+                            <div>Call us:</div>
+                            <div>+123 4567 890, +123 4567 890</div>
+                        </div>
+    
+                        <div class="contact_info_field">
+                            <div>Email:</div>
+                            <div>info@creative.agency.com</div>
+                        </div>
+                    </div>
+    
+                    <form>
+                        <div class="contact_inputs">
+                            <input placeholder="Name">
+                            <input placeholder="Email">
+                            <input placeholder="Subject">
+                            <input placeholder="Phone">
+                        </div>
+
+                        <textarea placeholder="Message" oninput='creatingMessage(this)'></textarea>
+                        <div class="button contact_button">
+                            <span>Submit</span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
